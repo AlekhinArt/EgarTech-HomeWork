@@ -3,7 +3,7 @@ package ru.egar.homeProject.dock;
 import java.time.LocalDate;
 
 public class Passport {
-//    private long id;
+    //    private long id;
     private int number;
     private int series;
     private LocalDate issued;
@@ -50,7 +50,7 @@ public class Passport {
         this.whoIssued = whoIssued;
     }
 
-    public Passport( int number, int series, LocalDate issued, String whoIssued) {
+    public Passport(int number, int series, LocalDate issued, String whoIssued) {
 //        this.id = id;
         this.number = number;
         this.series = series;

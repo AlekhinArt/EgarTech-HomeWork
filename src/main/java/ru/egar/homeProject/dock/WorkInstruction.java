@@ -1,11 +1,13 @@
 package ru.egar.homeProject.dock;
 
 import ru.egar.homeProject.model.Position;
+import ru.egar.homeProject.model.WorkSchedule;
 
 public class WorkInstruction {
     //    private int id;
     private Position position;
     private String description;
+    private WorkSchedule workSchedule;
 
     public WorkInstruction(Position position, String description) {
 

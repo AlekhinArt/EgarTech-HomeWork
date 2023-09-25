@@ -6,16 +6,18 @@ import ru.egar.homeProject.dock.WorkInstruction;
 import java.time.LocalDate;
 
 public class Person {
-//    private long id;
+    //    private long id;
     private String firstName;
     private String secondName;
     private Position position;
     private LocalDate birthDate;
     private Passport passport;
     private WorkInstruction workInstruction;
+    private WorkRecord workRecord;
 
 
-    public Person(String firstName, String secondName, Position position, LocalDate birthDate, Passport passport, WorkInstruction workInstruction) {
+    public Person(String firstName, String secondName, Position position, LocalDate birthDate, Passport passport,
+                  WorkInstruction workInstruction) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.position = position;
