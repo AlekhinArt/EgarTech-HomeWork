@@ -6,6 +6,11 @@ public class WorkRecord {
     private LocalDate start;
     private int experience;
 
+
+
+
+
+
     public LocalDate getStart() {
         return start;
     }
