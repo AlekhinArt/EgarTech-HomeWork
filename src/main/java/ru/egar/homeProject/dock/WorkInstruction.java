@@ -7,7 +7,7 @@ public class WorkInstruction {
     //    private int id;
     private Position position;
     private String description;
-    private WorkSchedule workSchedule;
+    //private WorkSchedule workSchedule;
 
     public WorkInstruction(Position position, String description) {
 

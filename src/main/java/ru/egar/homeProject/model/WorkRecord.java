@@ -5,7 +5,8 @@ import java.time.LocalDate;
 public class WorkRecord {
     private LocalDate start;
     private int experience;
-
+    private int cureDays;
+    private int seekDays;
 
 
 

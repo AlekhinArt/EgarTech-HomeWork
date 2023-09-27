@@ -13,7 +13,10 @@ public class Person {
     private LocalDate birthDate;
     private Passport passport;
     private WorkInstruction workInstruction;
+
+    //мб тут лист?
     private WorkRecord workRecord;
+
 
 
     public Person(String firstName, String secondName, Position position, LocalDate birthDate, Passport passport,
