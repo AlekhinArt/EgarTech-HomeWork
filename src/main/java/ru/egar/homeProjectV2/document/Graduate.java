@@ -6,16 +6,19 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
+
+
 @Setter
 @Getter
 @AllArgsConstructor
 @Builder
-public class Passport extends PaperDocument {
+public class Graduate extends PaperDocument {
     private int id;
-    private int number;
-    private int series;
-    private LocalDate issued;
-    private String whoIssued;
+    private String institution;
+    private String grade;
+    private String specialization;
+    private LocalDate startDate;
+    private LocalDate lastDate;
 
 
 }
