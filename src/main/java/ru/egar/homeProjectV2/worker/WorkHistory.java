@@ -10,7 +10,8 @@ public class WorkHistory {
     private LocalDate startWork;
     private LocalDate endWor;
     private List <LocalDate> daysOf;
-
+    private List <LocalDate> sickDays;
+    private List <LocalDate> vacation;
 
 
 }
