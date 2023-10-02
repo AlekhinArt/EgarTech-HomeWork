@@ -7,38 +7,25 @@ import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
+        String name = "Vas";
+        int age = 23;
+        Resume r = null;
+        r = Resume.of(name, age);
 
+    }
 
-//        WorkInstruction wI = new WorkInstruction(Position.SELLER, "I sell everything");
-//        Passport p = new Passport(123, 321, LocalDate.parse("2014-09-12"), "Gen neg");
-//        Person person = new Person("Ivan", "Ivanov", Position.SELLER,
-//                LocalDate.parse("1990-01-01"), p, wI);
-//        System.out.println(person);
-        LocalDate from = LocalDate.parse("2023-09-20");
-//        System.out.println(LocalDate.);
-        System.out.println(from.toEpochDay());
+    static class Resume {
+        private Resume(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
 
-//        HashMap <String, String> map= new HashMap<String, String>();
-//        map.put("one", "одиг");
-//        map.put("two", "два");
+        static Resume of(String name, int age) {
+            return new Resume(name, age);
 
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        LocalDate sd = LocalDate.parse("2023-09-01");
-        LocalDate fd = LocalDate.parse("2023-09-01");
-//        LocalDateTime.b
-
+        private String name;
+        private int age;
     }
 }
